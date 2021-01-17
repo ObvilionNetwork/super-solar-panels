@@ -1,10 +1,7 @@
 package com.denfop.ssp.common;
 
-import com.denfop.ssp.molecular.BlocksRegister;
 import com.google.common.base.Predicate;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.state.pattern.BlockMatcher;
-import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -16,12 +13,10 @@ import java.util.Random;
 
 public class SSPWorldDecorator implements IWorldGenerator {
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
-		if (world.provider.getDimension() == 0) {
-			runGenerator(BlocksRegister.iridiumOre.getDefaultState(), random.nextInt(4) + 1,
-					BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
-			runGenerator(BlocksRegister.platiumOre.getDefaultState(), random.nextInt(4) + 1,
-					BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
-		}
+//		if (world.provider.getDimension() == 0) {
+//			runGenerator(BlocksRegister.iridiumOre.getDefaultState(), random.nextInt(4) + 1,
+//					BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
+//		}
 	}
 
 	private void runGenerator(IBlockState blockToGen, int blockAmount, Predicate<IBlockState> blockToReplace, World world, Random rand, int chunk_X, int chunk_Z) {

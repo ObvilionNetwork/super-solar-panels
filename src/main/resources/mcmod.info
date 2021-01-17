@@ -11,18 +11,18 @@
 		"dependencies": [
 			"ic2@${ic2_range}"
 		],
-		"description": "Super Solar Panels is a remastered Advanced Solar Panels and new generation of using solar power. This is addon for IndustrialCraft 2.",
+		"description": "Super Solar Panels Obvilion Version is a remastered Advanced Solar Panels and new generation of using solar power. This is addon for IndustrialCraft 2.",
 		"logoFile": "",
 		"mcversion": "1.12.2",
 		"modid": "super_solar_panels",
-		"name": "Super Solar Panels",
+		"name": "SSP Obvilion Version",
 		"parent": "",
 		"requiredMods": [
 			"ic2@${ic2_range}"
 		],
 		"screenshots": [],
 		"updateUrl": "",
-		"url": "",
+		"url": "https://obvilionnetwork.ru",
 		"version": "${version}"
 	}
 ]
