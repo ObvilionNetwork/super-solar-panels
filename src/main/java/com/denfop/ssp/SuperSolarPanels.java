@@ -97,10 +97,8 @@ public final class SuperSolarPanels {
 
 		OreDictionary.registerOre("ingotUranium", SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.URANIUM_INGOT));
 		OreDictionary.registerOre("ingotIridium", SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.IRIDIUM_INGOT));
-//OreDictionary.registerOre("craftingSolarPanelHV", ModernSolarPanels.machines.getItemStack((ITeBlock)TEs.ultimate_solar_panel));
-		OreDictionary.registerOre("craftingSunnariumPart", SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.SUNNARIUM_PART));
+        OreDictionary.registerOre("craftingSunnariumPart", SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.SUNNARIUM_PART));
 		OreDictionary.registerOre("craftingSunnarium", SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.SUNNARIUM));
-
 	}
 
 	@SideOnly(Side.CLIENT)

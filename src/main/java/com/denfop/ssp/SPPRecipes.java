@@ -256,32 +256,7 @@ public final class SPPRecipes {
 				'S', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.ENRICHED_SUNNARIUM),
 				'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.SUNNARIUM_ALLOY));
 
-		//
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.spectral_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.spectral_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.singular_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.singular_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.admin_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.admin_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.photonic_solar_panelsun), "BA", 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.photonic_solar_panel), 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.spectral_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.spectral_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.singular_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.singular_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.admin_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.admin_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.photonic_solar_panelrain), "BA", 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.photonic_solar_panel), 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse));
 
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.proton_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.proton_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.neutronium_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.neutronium_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.proton_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.proton_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.neutronium_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.neutronium_solar_panel));
-
-
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.advanced_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.advanced_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.hybrid_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.hybrid_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.advanced_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.advanced_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.hybrid_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.hybrid_solar_panel));
-
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.ultimate_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.ultimate_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.quantum_solar_panelsun), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.sunlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.quantum_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.ultimate_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.ultimate_solar_panel));
-		addShapedRecipe(SuperSolarPanels.machines.getItemStack(SSPBlock.quantum_solar_panelrain), "BA", 'A', SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.rainlinse), 'B', SuperSolarPanels.machines.getItemStack(SSPBlock.quantum_solar_panel));
-		//
 		addcanerRecipe(input.forStack(IC2Items.getItem("crafting", "fuel_rod"), 1), input1.forStack(SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.proton)), new ItemStack(SSPItems.PROTON_FUEL_ROD.getInstance()));
 		addcentrifugeRecipe(input.forStack(SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.depleted_proton_fuel_rod)), SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.proton), SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.protonshard));
 		addcentrifugeRecipe(input.forStack(SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.depleted_dual_proton_fuel_rod)), SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.depleted_proton_fuel_rod), SSPItems.CRAFTING.getItemStack(CraftingThings.CraftingTypes.depleted_proton_fuel_rod));

@@ -8,8 +8,6 @@ import com.denfop.ssp.tiles.mfsu.QuantumMFSU;
 import com.denfop.ssp.tiles.mfsu.UltimateMFSU;
 import com.denfop.ssp.tiles.neutronfabricator.TileEntityMassFabricator;
 import com.denfop.ssp.tiles.panels.overtime.*;
-import com.denfop.ssp.tiles.panels.rain.*;
-import com.denfop.ssp.tiles.panels.sun.*;
 import com.denfop.ssp.tiles.transformer.*;
 import ic2.core.block.ITeBlock;
 import ic2.core.block.TileEntityBlock;
@@ -44,29 +42,9 @@ public enum SSPBlock implements ITeBlock {
 	transformator3(TileEntityTransformerEV3.class, 15),
 	transformator4(TileEntityTransformerEV4.class, 26),
 	transformator5(TileEntityTransformerEV5.class, 27),
-	advanced_solar_panelsun(TileEntityAdvancedSolarSun.class, 16),
-	hybrid_solar_panelsun(TileEntityHybridSolarSun.class, 17, EnumRarity.RARE),
-	ultimate_solar_panelsun(TileEntityUltimateHybridSolarSun.class, 18, EnumRarity.EPIC),
-	quantum_solar_panelsun(TileEntityQuantumSolarSun.class, 19, EnumRarity.EPIC),
-	spectral_solar_panelsun(TileEntitySpectralSun.class, 20),
-	proton_solar_panelsun(TileEntityProtonSun.class, 50),
-	singular_solar_panelsun(TileEntitySingularSun.class, 21, EnumRarity.RARE),
-	admin_solar_panelsun(TileEntityAdminSun.class, 22, EnumRarity.EPIC),
-	photonic_solar_panelsun(TileEntityPhotonicSun.class, 23, EnumRarity.EPIC),
-	neutronium_solar_panelsun(TileEntityNeutronSun.class, 24, EnumRarity.EPIC),
 	//
 
 	molecular_transformer(TileEntityMolecularAssembler.class, 25, EnumRarity.RARE),
-	advanced_solar_panelrain(TileEntityAdvancedSolarRain.class, 36),
-	hybrid_solar_panelrain(TileEntityHybridSolarrain.class, 37, EnumRarity.RARE),
-	ultimate_solar_panelrain(TileEntityUltimateHybridSolarRain.class, 38, EnumRarity.EPIC),
-	quantum_solar_panelrain(TileEntityQuantumSolarRain.class, 39, EnumRarity.EPIC),
-	spectral_solar_panelrain(TileEntitySpectralRain.class, 40),
-	proton_solar_panelrain(TileEntityProtonRain.class, 49, EnumRarity.EPIC),
-	singular_solar_panelrain(TileEntitySingularrain.class, 41, EnumRarity.RARE),
-	admin_solar_panelrain(TileEntityAdminRain.class, 42, EnumRarity.EPIC),
-	photonic_solar_panelrain(TileEntityPhotonicRain.class, 43, EnumRarity.EPIC),
-	neutronium_solar_panelrain(TileEntityNeutronRain.class, 44, EnumRarity.EPIC),
 	advancedmfsu(AdvancedMFSU.class, 45, EnumRarity.EPIC),
 	ultimatemfsu(UltimateMFSU.class, 46, EnumRarity.EPIC),
 	quantummfsu(QuantumMFSU.class, 47, EnumRarity.EPIC);
